@@ -190,3 +190,38 @@
 }
 
 /* Contact Form Done  */
+
+/* featured products section started */
+
+.featured-product{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 165px;
+}
+.featured-img{
+    height: 270px;
+    width: 400px;
+    margin-right: 60px;
+}
+.featured-txt{
+    text-align: justify;
+    margin-top: 30px;
+}
+
+/* featured product banner ended */
+
+/* footer started */
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: #0A0826;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.fab{
+    padding-right: 8px;
+}
+
+/* footer done  */
+
