@@ -1,6 +1,9 @@
 /* style started */
 /* global section  */
-
+body{
+    margin: 0px;
+    padding: 0px;
+}
 /* font imported */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500&display=swap');
 
@@ -224,4 +227,137 @@ footer{
 }
 
 /* footer done  */
+
+ /* responsive web dev start  */
+
+ /* tablet devices */ 
+
+ @media only screen and (max-width: 991px) {
+    /* header */
+    header{
+        width: 100%;
+    }
+    .logos{
+        display: none;
+    }
+    .grid-photos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+.featured-product{
+    display: none;
+}
+}
+/* tablet done  */
+
+
+/* mobile devices */
+ @media only screen and (max-width: 688px){
+     /* global section  */
+     body{
+         margin: 0;
+         padding: 0px;
+     }
+     /* header section  */
+     header{
+         width: 100%;
+         margin-left: 10px;
+         margin-right: 70px;
+     }
+.menu-bar .company-name h3{
+    text-align: center
+     }
+.menu-options{
+    display: none;
+}
+.first-banner{
+    display: flex;
+    flex-direction: column;
+}
+.banner-text{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-bottom: 80px;
+    margin-top: -40px;
+    
+}
+.camera-img{
+    margin-top: 50px;
+    width: 60%;
+}
+.camera-img:hover{
+    transform: rotate(60deg);
+    transition-duration: 1s;
+    transition-delay: .1s;
+}
+/* top banner done  */
+.logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 20px;
+    margin-left: 100px;
+    box-shadow: none;   
+    margin-right: 70px;
+}
+.middle-banner{
+    margin-bottom: 50px;
+
+
+}
+.grid-photos{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.product{
+    /* font-size: 2rem; */
+    height: 800px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.product-img{
+    height: 300px;
+}
+.middle-banner .button{
+    display: none;
+}
+/* middle banner done  */
+.featured-product{
+    display:none;
+}
+ /*Contact Us Section*/
+ .contact-us{
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form-card{
+    height: 500px;
+    width: 545px;
+    margin-bottom: 20px;
+}
+.form-input, .form-input-textarea{
+    width: 350px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+/* contact form done  */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+/* footer done  */
+
 
